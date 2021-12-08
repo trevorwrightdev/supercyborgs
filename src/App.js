@@ -1,9 +1,12 @@
 import Banner from "./components/Banner";
+import Socials from "./components/Socials"
 
 function App() {
   return (
     <div className='💪'>
-      <Banner>SUPER CYBORGS</Banner>
+      <Banner title='SUPER CYBORGS'>
+        <Socials />
+      </Banner>
     </div>
   );
 }
