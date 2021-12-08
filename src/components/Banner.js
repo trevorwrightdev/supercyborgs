@@ -1,9 +1,7 @@
-import bannerImg from '../images/banner.gif'
-
-const Banner = () => {
+const Banner = ({ children }) => {
     return (
         <div className='banner'>
-            <img src={bannerImg}/>
+            {children}
         </div>
     )
 }

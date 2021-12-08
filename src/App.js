@@ -3,7 +3,7 @@ import Banner from "./components/Banner";
 function App() {
   return (
     <div className='💪'>
-      <Banner />
+      <Banner>SUPER CYBORGS</Banner>
     </div>
   );
 }
