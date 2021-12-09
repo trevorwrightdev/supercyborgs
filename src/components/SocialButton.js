@@ -1,4 +1,4 @@
-import discordLogo from '../images/Discord-Logo-Black.png'
+import discordLogo from '../images/Discord-Logo-White.png'
 import twitterLogo from '../images/2021 Twitter logo - black.png'
 import openseaLogo from '../images/opensea-transparent-logo.png'
 
