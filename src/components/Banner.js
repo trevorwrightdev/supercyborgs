@@ -1,8 +1,7 @@
-const Banner = ({ title, children }) => {
+const Banner = ({ children }) => {
     return (
         <div className='banner'>
             {children}
-            <h2>{title}</h2>
         </div>
     )
 }

@@ -77,14 +77,18 @@ nav img {
   line-height: 30px;
 }
 
-h2 span {
+#gold {
   color: gold;
 }
-
 p {
   line-height: 30px;
+  margin: 0 2% 5% 2%;
 }
 
-p span {
+#lime {
   color: lime;
+}
+
+#red {
+  color: #DC143C;
 }
