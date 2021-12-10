@@ -5,6 +5,8 @@ import openseaLogo from '../images/opensea-transparent-logo.png'
 
 const SocialButton = ({ social }) => {
 
+    // TODO: Pass in url as prop? and then link to page as prop?
+
     let imgURL = '';
 
     if (social === 'Discord') imgURL = discordLogo;

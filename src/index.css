@@ -1,5 +1,6 @@
 /* TODO: Adjust things for bigger screen sizes, especially social  */
-
+/* TODO: Also, we can make it so if the page gets really short we stop scaling with screen size by doing min-height or something. Maybe */
+/* TODO: Last thing, just make sure every social logo has the same dimensions. */
 @font-face {
   font-family: 'Pixel';
   src: local('Pixel'), url('./fonts/OTF/dogica.otf') format('opentype');
@@ -50,4 +51,6 @@ nav {
 
 nav img {
   margin: 10px;
+  height: 4vw;
+  width: 4vw;
 }
