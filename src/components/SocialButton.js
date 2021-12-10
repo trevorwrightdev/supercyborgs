@@ -1,22 +1,12 @@
-import discordLogo from '../images/Discord-Logo-White.png'
-import twitterLogo from '../images/2021 Twitter logo - black.png'
-import openseaLogo from '../images/opensea-transparent-logo.png'
+const SocialButton = ({ img, link }) => {
 
-
-const SocialButton = ({ social }) => {
-
-    // TODO: Pass in url as prop? and then link to page as prop?
-
-    let imgURL = '';
-
-    if (social === 'Discord') imgURL = discordLogo;
-    else if (social === 'Twitter') imgURL = twitterLogo;
-    else if (social === 'OpenSea') imgURL = openseaLogo;
-
-    console.log(imgURL);
+    const openInNewTab = (url) => {
+        let win = window.open(url, '');
+        win.focus();
+    }
 
     return (
-        <img src={imgURL} alt=''/>
+        <img src={img} alt='' onClick={() => openInNewTab(link)}/>
     )
 }
 

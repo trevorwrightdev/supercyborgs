@@ -1,6 +1,5 @@
-/* TODO: Adjust things for bigger screen sizes, especially social  */
 /* TODO: Also, we can make it so if the page gets really short we stop scaling with screen size by doing min-height or something. Maybe */
-/* TODO: Last thing, just make sure every social logo has the same dimensions. */
+/* TODO: Custom cursor would be cool. */
 @font-face {
   font-family: 'Pixel';
   src: local('Pixel'), url('./fonts/OTF/dogica.otf') format('opentype');
@@ -31,6 +30,7 @@ html {
   justify-content: center;
   width: 100%;
   height: 50vw;
+  min-height: 50vh;
   background-image: url(/src/images/banner.gif);
   background-size: cover;
   background-position: right;
@@ -39,6 +39,7 @@ html {
 
 h2 {
   position: absolute;
+  color: white;
 }
 
 nav {
@@ -50,7 +51,9 @@ nav {
 }
 
 nav img {
+  /* * Social icons * */
   margin: 10px;
   height: 4vw;
   width: 4vw;
+  cursor: pointer;
 }
