@@ -37,7 +37,7 @@ html {
   color: white;
 }
 
-h2 {
+.banner h2 {
   position: absolute;
   color: white;
 }
@@ -56,4 +56,35 @@ nav img {
   height: 4vw;
   width: 4vw;
   cursor: pointer;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.section img {
+  margin: 5% 0 3% 0;
+  border-radius: 5px;
+}
+
+.section h2 {
+  margin: 3%;
+  line-height: 30px;
+}
+
+h2 span {
+  color: gold;
+}
+
+p {
+  line-height: 30px;
+}
+
+p span {
+  color: lime;
 }
