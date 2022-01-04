@@ -1,6 +1,8 @@
+import homeStyles from '../styles/Home.module.css'
+
 const Banner = ({ children }) => {
     return (
-        <div className='banner'>
+        <div className={homeStyles.banner}>
             {children}
         </div>
     )
