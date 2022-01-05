@@ -3,6 +3,7 @@ import Banner from '../components/Banner'
 import Socials from '../components/Socials'
 import Subsection  from '../components/Subsection'
 import Faq from '../components/Faq'
+import Roadmap from '../components/Roadmap'
 
 import purpleCyborg from '../public/images/purplecyborg.png'
 import pinkCyborg from '../public/images/pinkcyborg.png'
@@ -34,6 +35,7 @@ export default function Home() {
         </p>
       </Subsection>
       <Faq />
+      <Roadmap />
       </div>
     </>
   )
