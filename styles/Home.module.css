@@ -24,9 +24,15 @@
 .nav {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
   margin-bottom: auto;
   width: 100%;
   height: 10%;
+}
+
+.nav .wrappedImage {
+  width: 5%;
+  margin: 1%;
 }
 
 .section {
@@ -44,7 +50,7 @@
   align-items: center;
   text-align: center;
   margin: 5% 0 0 0;
-  padding: 2.5%;
+  padding: 2.5% 0;
   background: #fe019a;
   color: black;
   line-height: 30px;
@@ -67,11 +73,6 @@
 .section .h2 {
   margin: 3%;
   line-height: 30px;
-}
-
-.nav .wrappedImage {
-  width: 5%;
-  margin: 1%;
 }
 
 .section .wrappedImage {
