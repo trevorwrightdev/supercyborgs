@@ -2,6 +2,7 @@ import Meta from '../components/Meta'
 import Banner from '../components/Banner'
 import Socials from '../components/Socials'
 import Subsection  from '../components/Subsection'
+import Faq from '../components/Faq'
 
 import purpleCyborg from '../public/images/purplecyborg.png'
 import pinkCyborg from '../public/images/pinkcyborg.png'
@@ -32,7 +33,8 @@ export default function Home() {
           by the community.
         </p>
       </Subsection>
-    </div>
+      <Faq />
+      </div>
     </>
   )
 }
