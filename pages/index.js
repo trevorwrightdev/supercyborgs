@@ -3,7 +3,7 @@ import Banner from '../components/Banner'
 import Socials from '../components/Socials'
 import Subsection  from '../components/Subsection'
 
-import purpleCyborg from '../public/images/purpleCyborg.png'
+import purpleCyborg from '../public/images/purplecyborg.png'
 import pinkCyborg from '../public/images/pinkcyborg.png'
 
 import homeStyles from '../styles/Home.module.css'
