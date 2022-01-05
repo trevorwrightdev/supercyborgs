@@ -1,6 +1,6 @@
 import SocialButton from './SocialButton'
 import discordLogo from '../public/images/discordwhiteimage.png'
-import twitterLogo from '../public/images/2021 Twitter logo - black.png'
+import twitterLogo from '../public/images/2021Twitterlogo-black.png'
 import openseaLogo from '../public/images/opensea-transparent-logo.png'
 
 import homeStyles from '../styles/Home.module.css'
