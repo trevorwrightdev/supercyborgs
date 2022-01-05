@@ -50,17 +50,17 @@
 }
 
 .faq .title {
-  margin: 5% 0 0 0;
+  margin: 5% 0 2.5% 0;
   color: white;
 }
 
 .faq .question {
-  margin: 5% 2%;
+  margin: 2.5% 2%;
 }
 
 .faq .answer {
   color: white;
-  margin: 0 2%;
+  margin: 2.5% 2%;
 }
 
 .section .h2 {
