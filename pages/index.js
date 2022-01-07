@@ -20,7 +20,7 @@ export default function Home() {
           <Socials />
           <h2 className={homeStyles.h2}>SUPER CYBORGS</h2>
         </Banner>
-        <Subsection img={purpleCyborg}>
+        <Subsection img={purpleCyborg} cyborg={'purple'}>
           <span>
           <h2 className={homeStyles.h2}>What are <span id={homeStyles.gold}>Super Cyborgs?</span></h2>
           <p className={homeStyles.p}>
@@ -29,7 +29,7 @@ export default function Home() {
           </p>
           </span>
         </Subsection> 
-        <Subsection img={pinkCyborg}>
+        <Subsection img={pinkCyborg} cyborg={'pink'}>
           <span>
           <h2 className={homeStyles.h2}>What is the <span id={homeStyles.gold}>Super Cyborgs</span> <span id={homeStyles.red}>MMO</span>?</h2>
           <p className={homeStyles.p}>

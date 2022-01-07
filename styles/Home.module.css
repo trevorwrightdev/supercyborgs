@@ -15,6 +15,7 @@
   background-image: url(../public/images/banner.gif);
   background-size: cover;
   background-position: right;
+  margin-bottom: 4%;
 }
 
 .banner .h2 {
@@ -57,11 +58,16 @@
 }
 
 .section .wrappedImage {
-  margin: 5% 0 3% 0;
   border-radius: 5px;
   overflow: hidden;
   height: 240px;
   width: 240px;
+  margin-bottom: 3%;
+}
+
+.p {
+  line-height: 30px;
+  margin: 0 2% 5% 2%;
 }
 
 .faq {
@@ -102,7 +108,7 @@
 
 .roadmap h2 {
   /* ! This 50% margin is just here to make space for images because we don't currently have them. */
-  margin: 300px 0 20px 0;
+  margin: 300px 0 3% 0;
 }
 
 .team {
@@ -141,11 +147,6 @@
   color: gold;
 }
 
-.p {
-  line-height: 30px;
-  margin: 0 2% 5% 2%;
-}
-
 #lime {
   color: lime;
 }
@@ -164,6 +165,7 @@
     flex-direction: row;
     padding: 0 10%;
     font-size: 1.5rem;
+    margin-bottom: 4%;
   }
 
   .section .h2 {
