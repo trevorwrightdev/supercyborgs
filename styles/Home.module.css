@@ -21,6 +21,10 @@
   position: absolute;
 }
 
+.wrappedImage {
+  position: relative;
+}
+
 .nav {
   display: flex;
   flex-direction: row-reverse;
@@ -31,8 +35,8 @@
 }
 
 .nav .wrappedImage {
-  width: 5%;
-  margin: 1%;
+  width: 47.2px;
+  margin: 10px;
 }
 
 .nav .isolatedImage {
@@ -56,8 +60,8 @@
   margin: 5% 0 3% 0;
   border-radius: 5px;
   overflow: hidden;
-  height: 50%;
-  width: 50%;
+  height: 240px;
+  width: 240px;
 }
 
 .faq {
@@ -158,11 +162,25 @@
 
   .section {
     flex-direction: row;
-    padding: 0 5%;
+    padding: 0 10%;
+    font-size: 1.5rem;
+  }
+
+  .section .h2 {
+    line-height: 60px;
   }
 
   .section .wrappedImage {
-    min-width: 20%;
+    min-width: 350px;
+    min-height: 350px;
+  }
+
+  .faq {
+    font-size: 1.2rem;
+  }
+
+  .roadmap {
+    font-size: 1.2rem;
   }
 
   .team {

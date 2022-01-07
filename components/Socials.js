@@ -1,11 +1,14 @@
 import SocialButton from './SocialButton'
-import discordLogo from '../public/images/discordwhiteimage.png'
-import twitterLogo from '../public/images/2021Twitterlogo-black.png'
-import openseaLogo from '../public/images/opensea-transparent-logo.png'
+import discordLogo from '../public/images/discordicon.svg'
+import twitterLogo from '../public/images/twittericon.svg'
+import openseaLogo from '../public/images/openseaicon.svg'
 
 import homeStyles from '../styles/Home.module.css'
 
 const Socials = () => {
+
+    console.log()
+
     return (
         <nav className={homeStyles.nav}>
             <SocialButton img={discordLogo} link='https://discord.gg/hcFPbPdSPj'/>
