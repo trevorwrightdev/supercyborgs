@@ -35,6 +35,10 @@
   margin: 1%;
 }
 
+.nav .isolatedImage {
+  cursor: pointer;
+}
+
 .section {
   display: flex;
   flex-direction: column;
@@ -93,8 +97,13 @@
   padding: 5% 2%;
 }
 
-.team .title {
-  margin-bottom: 4%;
+.team .wrappedImage {
+  margin: 4% 0;
+}
+
+.team .dev {
+  margin-bottom: 2%;
+  color: gold;
 }
 
 .link {
@@ -112,10 +121,6 @@
   overflow: hidden;
 }
 
-.isolatedImage {
-  cursor: pointer;
-}
-
 #gold {
   color: gold;
 }
@@ -131,4 +136,12 @@
 
 #red {
   color: #DC143C;
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  .nav {
+    justify-content: flex-start;
+  }
+
 }
