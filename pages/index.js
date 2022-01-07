@@ -21,19 +21,23 @@ export default function Home() {
           <h2 className={homeStyles.h2}>SUPER CYBORGS</h2>
         </Banner>
         <Subsection img={purpleCyborg}>
+          <span>
           <h2 className={homeStyles.h2}>What are <span id={homeStyles.gold}>Super Cyborgs?</span></h2>
           <p className={homeStyles.p}>
             Super Cyborgs are citizens of <span id={homeStyles.lime}>NEON CITY</span>, the most technologically advanced city
             in the whole galaxy. It is the year <span id={homeStyles.gold}>2099</span>, and people have started to become more machine than man. 
           </p>
+          </span>
         </Subsection> 
         <Subsection img={pinkCyborg}>
+          <span>
           <h2 className={homeStyles.h2}>What is the <span id={homeStyles.gold}>Super Cyborgs</span> <span id={homeStyles.red}>MMO</span>?</h2>
           <p className={homeStyles.p}>
             The Super Cyborgs <span id={homeStyles.red}>MMO</span> is a multiplayer video game that allows players to play as their one-of-a-kind NFT avatar
             and explore <span id={homeStyles.lime}>NEON CITY</span>. Every aspect of the city&apos;s open world will be owned
             by the community.
           </p>
+          </span>
         </Subsection>
         <Faq />
         <Roadmap />

@@ -47,6 +47,19 @@
   text-align: center;
 }
 
+.section .h2 {
+  margin: 3%;
+  line-height: 30px;
+}
+
+.section .wrappedImage {
+  margin: 5% 0 3% 0;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 30%;
+  width: 30%;
+}
+
 .faq {
   display: flex;
   flex-direction: column;
@@ -97,8 +110,9 @@
   padding: 5% 2%;
 }
 
-.team .wrappedImage {
-  margin: 4% 0;
+.teamTitle {
+  text-align: center;
+  margin-top: 4%;
 }
 
 .team .dev {
@@ -106,19 +120,15 @@
   color: gold;
 }
 
+.team .wrappedImage {
+  margin-bottom: 4%;
+}
+
 .link {
   color: white;
-}
-
-.section .h2 {
-  margin: 3%;
-  line-height: 30px;
-}
-
-.section .wrappedImage {
-  margin: 5% 0 3% 0;
-  border-radius: 5px;
-  overflow: hidden;
+  margin-bottom: 8%;
+  margin-top: 2%;
+  display: block;
 }
 
 #gold {
@@ -143,5 +153,24 @@
   .nav {
     justify-content: flex-start;
   }
+
+  .section {
+    flex-direction: row;
+    padding: 0 20%;
+  }
+
+  .section .wrappedImage {
+    min-width: 20%;
+  }
+
+  .team {
+    flex-direction: row;
+  }
+
+  .teamMember {
+    margin: 0 5%;
+  }
+
+
 
 }
