@@ -49,24 +49,23 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2.5% 0;
+  padding: 5% 2%;
   background: #fe019a;
   color: black;
   line-height: 30px;
 }
 
 .faq .title {
-  margin: 5% 0 2.5% 0;
   color: white;
 }
 
 .faq .question {
-  margin: 2.5% 2%;
+  margin: 2.5% 0;
 }
 
 .faq .answer {
   color: white;
-  margin: 2.5% 2%;
+  margin: 2.5% 0;
 }
 
 .roadmap {
@@ -77,15 +76,29 @@
   text-align: center;
   background: yellow;
   color: black;
-  padding: 5% 0 0 0;
-}
-
-.roadmap .title {
-  margin: 0 0 2.5% 0;
+  padding: 5% 2%;
 }
 
 .roadmap h2 {
+  /* ! This 50% margin is just here to make space for images because we don't currently have them. */
   margin: 50% 0 5% 0;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5% 2%;
+}
+
+.team .title {
+  margin-bottom: 4%;
+}
+
+.link {
+  color: white;
 }
 
 .section .h2 {
