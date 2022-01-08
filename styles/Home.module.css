@@ -168,6 +168,10 @@
     margin-bottom: 4%;
   }
 
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
   .section .h2 {
     line-height: 60px;
   }
