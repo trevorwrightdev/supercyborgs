@@ -155,6 +155,18 @@
   color: #DC143C;
 }
 
+.footer {
+  background-color: red;
+  text-align: center;
+  color: black;
+  padding: 1%;
+}
+
+.footerLink {
+  cursor: pointer;
+  color: black;
+} 
+
 @media only screen and (min-width: 1020px) {
   
   .nav {
