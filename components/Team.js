@@ -18,7 +18,7 @@ const Team = () => {
             <span className={homeStyles.teamMember}>
             <WrappedImage className={homeStyles.teamImage} src={greenDude} quality={100}/>
             <span className={homeStyles.dev}>Artist</span>
-            <a className={homeStyles.link} href="https://twitter.com/GraysonVarn" target="_blank" rel="noopener noreferrer">yoog</a>
+            <a className={homeStyles.link} href="https://twitter.com/GraysonVarn" target="_blank" rel="noopener noreferrer">Grayson Varn</a>
             </span>
         </div>
         </>
