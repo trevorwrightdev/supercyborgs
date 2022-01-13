@@ -15,7 +15,7 @@ import homeStyles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
-      <Meta />
+      <Meta title='Super Cyborgs'/>
       <div className={homeStyles.flexbox}>
         <Banner>
           <Socials />
