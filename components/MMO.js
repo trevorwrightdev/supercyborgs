@@ -12,7 +12,7 @@ const MMO = () => {
         <h3 className={homeStyles.mmoTitle}>SECTORS</h3>
         <div className={homeStyles.mmoSectors}>
           <h3 className={homeStyles.sectorName}>HYPERNIA</h3>
-          <p className={homeStyles.sectorDescription}>A rooftop metropolis located at the center of <br />Neon City.</p>
+          <p className={homeStyles.sectorDescription}>A rooftop metropolis located at the center of Neon City.</p>
           <h3 className={homeStyles.sectorName}>UTOPIA</h3>
           <p className={homeStyles.sectorDescription}>A wildlife preserve where structures are built to optimally coexist with nature.</p>
           <h3 className={homeStyles.sectorName}>TOKYO</h3>
@@ -25,9 +25,9 @@ const MMO = () => {
         <h3 className={homeStyles.mmoTitle}>LAND AIRDROPS</h3>
         <p className={homeStyles.mmoDesc}>
           Each sector consists of scarce land that can be owned by owning the corresponding NFT. These land NFTs will be <span id={homeStyles.white}>airdropped</span> to all
-          Super Cyborgs holders during the "Delegation" phase on our roadmap. <span id={homeStyles.white}>At the minimum, all holders will receive a house NFT which
+          Super Cyborgs holders during the &quot;Delegation&quot; phase on our roadmap. <span id={homeStyles.white}>At the minimum, all holders will receive a house NFT which
           will be located in a random sector during the delegation phase.</span> On top of this, active MMO players will receive airdrops for special land. For example,
-          every shop, restaurant, club- every single part of the MMO's world will be airdropped to the players.
+          every shop, restaurant, club- every single part of the MMO&apos;s world will be airdropped to the players.
         </p>
         <h3 className={homeStyles.mmoTitle}>COMMUNITY STORY</h3>
         <p className={homeStyles.mmoDesc}>
