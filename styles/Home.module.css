@@ -110,7 +110,7 @@
   align-items: center;
   color: black;
   padding: 5% 2%;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .mmoDesc {
@@ -262,6 +262,9 @@
     margin: 0 5%;
   }
 
-
+  .mmo {
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
 
 }
