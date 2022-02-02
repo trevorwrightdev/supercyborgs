@@ -95,6 +95,51 @@
   margin: 2.5% 0;
 }
 
+.mmoContainer {
+  width: 100%;
+  background: #DC143C;
+}
+
+.mmo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 5% 2%;
+}
+
+.mmoDesc {
+  text-align: center;
+  margin: 2.5% 0;
+  line-height: 20px;
+}
+
+.mmoTitle {
+  margin: 2.5% 0;
+  text-decoration: underline;
+}
+
+.mmoSectors {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sectorName {
+  grid-column: 1;
+  text-align: center;
+  margin: 4% 0;
+  font-style: italic;
+  color: white;
+}
+
+.sectorDescription {
+  grid-column: 2;
+  line-height: 20px;
+  margin: 4% 0;
+}
+
+
 .roadmap {
   display: flex;
   flex-direction: column;
@@ -153,6 +198,10 @@
 
 #red {
   color: #DC143C;
+}
+
+#white {
+  color: white;
 }
 
 .footer {

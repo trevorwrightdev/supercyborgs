@@ -13,6 +13,8 @@ const Roadmap = () => {
             <h3>Civilization</h3>
             <h2>STAGE 3</h2>
             <h3>Delegation</h3>
+            <h2>STAGE 4</h2>
+            <h3>BEYOND</h3>
         </div>
     )
 }

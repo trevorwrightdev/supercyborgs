@@ -6,6 +6,7 @@ import Faq from '../components/Faq'
 import Roadmap from '../components/Roadmap'
 import Team from '../components/Team'
 import Footer from '../components/Footer'
+import MMO from '../components/MMO'
 
 import purpleCyborg from '../public/images/purplecyborg.png'
 import pinkCyborg from '../public/images/pinkcyborg.png'
@@ -41,6 +42,7 @@ export default function Home() {
           </span>
         </Subsection>
         <Faq />
+        <MMO />
         <Roadmap />
         <Team />
         <Footer />
