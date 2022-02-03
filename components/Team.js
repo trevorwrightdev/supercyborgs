@@ -13,7 +13,7 @@ const Team = () => {
             <span className={homeStyles.teamMember}>
             <WrappedImage className={homeStyles.teamImage} src={einstein} quality={100}/>
             <span className={homeStyles.dev}>Developer</span>
-            <a className={homeStyles.link} href="https://twitter.com/trevdev__" target="_blank" rel="noopener noreferrer">@trevdev_eth</a>
+            <a className={homeStyles.link} href="https://twitter.com/trevdev__" target="_blank" rel="noopener noreferrer">@trevdev__</a>
             </span>
             <span className={homeStyles.teamMember}>
             <WrappedImage className={homeStyles.teamImage} src={greenDude} quality={100}/>
