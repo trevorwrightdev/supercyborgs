@@ -1,7 +1,6 @@
 import SocialButton from './SocialButton'
 import discordLogo from '../assets/images/discordicon.svg'
 import twitterLogo from '../assets/images/twittericon.svg'
-import openseaLogo from '../assets/images/openseaicon.svg'
 
 const Socials = () => {
 
