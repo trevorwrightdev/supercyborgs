@@ -1,16 +1,12 @@
 import SocialButton from './SocialButton'
-import discordLogo from '../public/images/discordicon.svg'
-import twitterLogo from '../public/images/twittericon.svg'
-import openseaLogo from '../public/images/openseaicon.svg'
-
-import homeStyles from '../styles/Home.module.css'
+import discordLogo from '../assets/images/discordicon.svg'
+import twitterLogo from '../assets/images/twittericon.svg'
+import openseaLogo from '../assets/images/openseaicon.svg'
 
 const Socials = () => {
 
-    console.log()
-
     return (
-        <nav className={homeStyles.nav}>
+        <nav className='nav'>
             <SocialButton img={discordLogo} link='https://discord.gg/hcFPbPdSPj'/>
             <SocialButton img={twitterLogo} link='https://twitter.com/SuperCyborgsNFT'/>
             <SocialButton img={openseaLogo} link='https://opensea.io/collection/neo-tokyo-identities'/>

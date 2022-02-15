@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Pixel';
-  src: local('Pixel'), url('../public/fonts/OTF/dogica.otf') format('opentype');
+  src: local('Pixel'), url('../assets/fonts/OTF/dogica.otf') format('opentype');
 }
 
 * {
@@ -15,4 +15,3 @@ html {
   background-color: black;
   color: white;
 }
-
