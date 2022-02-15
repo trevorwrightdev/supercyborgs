@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { WalletDialogButton } from '@solana/wallet-adapter-material-ui';
+import Player from '../components/Player'
 
 const ConnectButton = styled(WalletDialogButton)`
   width: 100%;
@@ -23,7 +24,7 @@ const Connector = () => {
       <ConnectButton>Connect Wallet</ConnectButton>
     ) : (
       // * PLAYER GOES HERE, REQUIRES ADDRESS AS PROP!!!
-      <h1>{wallet.publicKey?.toString()}</h1>
+      <Player address={wallet.publicKey?.toString()}/>
     )}
     </div>
   );
