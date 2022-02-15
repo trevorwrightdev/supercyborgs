@@ -170,10 +170,58 @@ const Home = (props: HomeProps) => {
           {!wallet.connected ? (
             <ConnectButton>Connect Wallet</ConnectButton>
           ) : (
-            <h1>{wallet.publicKey?.toString()}</h1>
+            <>
+              <Header candyMachine={candyMachine} />
+              <MintContainer>
+                {candyMachine?.state.isActive &&
+                candyMachine?.state.gatekeeper &&
+                wallet.publicKey &&
+                wallet.signTransaction ? (
+                  <GatewayProvider
+                    wallet={{
+                      publicKey:
+                        wallet.publicKey ||
+                        new PublicKey(CANDY_MACHINE_PROGRAM),
+                      //@ts-ignore
+                      signTransaction: wallet.signTransaction,
+                    }}
+                    gatekeeperNetwork={
+                      candyMachine?.state?.gatekeeper?.gatekeeperNetwork
+                    }
+                    clusterUrl={rpcUrl}
+                    options={{ autoShowModal: false }}
+                  >
+                    <MintButton
+                      candyMachine={candyMachine}
+                      isMinting={isUserMinting}
+                      onMint={onMint}
+                    />
+                  </GatewayProvider>
+                ) : (
+                  <MintButton
+                    candyMachine={candyMachine}
+                    isMinting={isUserMinting}
+                    onMint={onMint}
+                  />
+                )}
+              </MintContainer>
+            </>
           )}
         </Paper>
       </Container>
+
+      <Snackbar
+        open={alertState.open}
+        autoHideDuration={6000}
+        onClose={() => setAlertState({ ...alertState, open: false })}
+      >
+        <Alert
+          onClose={() => setAlertState({ ...alertState, open: false })}
+          severity={alertState.severity}
+        >
+          {alertState.message}
+        </Alert>
+      </Snackbar>
     </Container>
   );
 };
