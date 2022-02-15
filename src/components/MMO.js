@@ -1,4 +1,4 @@
-
+import mask from '../assets/images/mask.png'
 
 const MMO = () => {
   return (
@@ -37,6 +37,7 @@ const MMO = () => {
           that will evolve and grow with our players for years to come.</span>
         </p>
       </div>
+      <img className='mask' src={mask} alt=''/>
     </div>
       
   );

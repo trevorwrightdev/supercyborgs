@@ -102,6 +102,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .mmo {
@@ -128,6 +130,14 @@
 .mmoSectors {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.mask {
+  position: absolute;
+  transform: rotate(-45deg);
+  width: 150px;
+  right: calc(100% - 100px);
+  top: calc(100% - 100px);
 }
 
 .sectorName {
