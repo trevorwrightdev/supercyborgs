@@ -6,6 +6,8 @@ import MMO from '../components/MMO'
 import Roadmap from '../components/Roadmap'
 import Team from '../components/Team'
 import Footer from '../components/Footer'
+import MobileDivider from '../components/MobileDivider'
+import DesktopDivider from '../components/DesktopDivider'
 
 import purpleCyborg from '../assets/images/purplecyborg.png'
 import pinkCyborg from '../assets/images/pinkcyborg.png'
@@ -40,6 +42,8 @@ const Home = () => {
           </span>
         </Subsection>
         <Faq />
+        <MobileDivider />
+        <DesktopDivider />
         <MMO />
         <Roadmap />
         <Team />
