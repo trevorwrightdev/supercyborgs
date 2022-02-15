@@ -13,7 +13,7 @@ const ConnectButton = styled(WalletDialogButton)`
   font-weight: bold;
 `;
 
-const Player = () => {
+const Connector = () => {
 
   const wallet = useWallet();
 
@@ -29,4 +29,4 @@ const Player = () => {
   );
 };
 
-export default Player;
+export default Connector;

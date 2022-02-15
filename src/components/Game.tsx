@@ -1,6 +1,5 @@
 import { useMemo } from 'react';
-import * as anchor from '@project-serum/anchor';
-import Player from '../candy-machine/Player';
+import Connector from '../candy-machine/Connector';
 
 import { clusterApiUrl } from '@solana/web3.js';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
@@ -28,11 +27,6 @@ const theme = createTheme({
 
 
 const network = process.env.REACT_APP_SOLANA_NETWORK as WalletAdapterNetwork;
-const rpcHost = process.env.REACT_APP_SOLANA_RPC_HOST!;
-const connection = new anchor.web3.Connection(rpcHost
-  ? rpcHost
-  : anchor.web3.clusterApiUrl('devnet'));
-
 
 const Game = () => {
   const endpoint = useMemo(() => clusterApiUrl(network), []);
@@ -53,7 +47,7 @@ const Game = () => {
       <ConnectionProvider endpoint={endpoint}>
         <WalletProvider wallets={wallets} autoConnect>
           <WalletDialogProvider>
-            <Player />
+            <Connector />
           </WalletDialogProvider>
         </WalletProvider>
       </ConnectionProvider>
