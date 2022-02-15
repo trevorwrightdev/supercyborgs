@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import * as anchor from '@project-serum/anchor';
-import Home from './Home';
+import Home from '../candy-machine/Home';
 
 import { clusterApiUrl } from '@solana/web3.js';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
@@ -49,7 +49,7 @@ const connection = new anchor.web3.Connection(rpcHost
 const startDateSeed = parseInt(process.env.REACT_APP_CANDY_START_DATE!, 10);
 const txTimeoutInMilliseconds = 30000;
 
-const App = () => {
+const Game = () => {
   const endpoint = useMemo(() => clusterApiUrl(network), []);
 
   const wallets = useMemo(
@@ -82,4 +82,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Game;

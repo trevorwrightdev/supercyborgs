@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
 import Clan from './pages/Clan'
 import Error from './pages/Error'
+import Play from './pages/Play'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/clan' element={<Clan />} />
+        <Route path='/play' element={<Play />} />
         <Route path='*' element={<Error />} /> 
       </Routes>
     </BrowserRouter>
