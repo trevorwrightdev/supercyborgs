@@ -9,7 +9,7 @@ const Socials = () => {
         <nav className='nav'>
             <SocialButton img={discordLogo} link='https://discord.gg/hcFPbPdSPj'/>
             <SocialButton img={twitterLogo} link='https://twitter.com/SuperCyborgsNFT'/>
-            <SocialButton img={openseaLogo} link='https://opensea.io/collection/neo-tokyo-identities'/>
+            {/* <SocialButton img={openseaLogo} link='https://opensea.io/collection/neo-tokyo-identities'/> */}
         </nav>
     )
 }
