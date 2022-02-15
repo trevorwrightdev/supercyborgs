@@ -1,0 +1,11 @@
+.clanContainer {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    place-items: center;
+}
+
+.clanContainer h3 {
+    text-align: center;
+    line-height: 30px;
+}

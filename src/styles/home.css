@@ -120,6 +120,7 @@
   text-align: center;
   margin: 2.5% 0;
   line-height: 20px;
+  z-index: 1;
 }
 
 .mmoTitle {
@@ -138,6 +139,7 @@
   width: 150px;
   right: calc(100% - 100px);
   top: calc(100% - 100px);
+  cursor: pointer;
 }
 
 .sectorName {

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // * Pages
 import Home from './pages/Home'
+import Clan from './pages/Clan'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -13,6 +14,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/clan' element={<Clan />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
