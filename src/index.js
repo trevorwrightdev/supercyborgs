@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // * Pages
 import Home from './pages/Home'
 import Clan from './pages/Clan'
+import Error from './pages/Error'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/clan' element={<Clan />} />
+        <Route path='*' element={<Error />} /> 
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
