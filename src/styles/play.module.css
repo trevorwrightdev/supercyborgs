@@ -50,3 +50,17 @@
     border-color: lime;
     border-radius: 0.5em;
 }
+
+@media only screen and (max-width: 1280px), (max-height: 720px) {
+    .gameWindow {
+        width: 960px;
+        height: 540px;
+    }
+} 
+
+@media only screen and (max-width: 960px), (max-height: 540px) {
+    .gameWindow {
+        width: 640px;
+        height: 360px;
+    }
+}
