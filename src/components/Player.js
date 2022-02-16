@@ -1,6 +1,18 @@
 import { useEffect } from 'react'
-import Unity, { UnitContext } from 'react-unity-webgl'
+import Unity, { UnityContext } from 'react-unity-webgl'
+
+import styles from '../styles/play.module.css'
+
 const axios = require('axios')
+
+const unityContext = new UnityContext({
+  loaderUrl: 'test-build/Build/test-build.loader.js',
+  dataUrl: "test-build/Build/test-build.data",
+  frameworkUrl: "test-build/Build/test-build.framework.js",
+  codeUrl: "test-build/Build/test-build.wasm",
+})
+
+
 
 const nfts = [];
 
@@ -60,9 +72,7 @@ const Player = ({address}) => {
               for (let attribute of attrResponse.data.attributes) {
                 token[attribute.trait_type] = attribute.value
               }
-
               nfts.push(token)
-
             })
           }
         })
@@ -75,8 +85,8 @@ const Player = ({address}) => {
 
 
   return (
-    <div>
-        <h1>{address}</h1>
+    <div className={styles.gameContainer}>
+        <Unity className={styles.gameWindow} unityContext={unityContext} />
     </div>
   )
 }
