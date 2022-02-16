@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { WalletDialogButton } from '@solana/wallet-adapter-material-ui';
-import Player from '../components/Player'
+import Player from './Player'
+import { StylesContext } from '@material-ui/styles';
+
+import styles from '../styles/play.module.css'
 
 const ConnectButton = styled(WalletDialogButton)`
   width: 100%;
@@ -19,14 +22,16 @@ const Connector = () => {
   const wallet = useWallet();
 
   return (
-    <div>
-        {!wallet.connected ? (
-      <ConnectButton>Connect Wallet</ConnectButton>
+    <>
+      {!wallet.connected ? (
+      <div className={styles.connectContainer}>
+        <WalletDialogButton className={styles.connectButton}>Connect Wallet</WalletDialogButton>
+      </div>
     ) : (
       // * PLAYER GOES HERE, REQUIRES ADDRESS AS PROP!!!
       <Player address={wallet.publicKey?.toString()}/>
     )}
-    </div>
+    </>
   );
 };
 
