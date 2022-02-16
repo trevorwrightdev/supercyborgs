@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 const axios = require('axios')
 
-const cyborgs = [];
+const nfts = [];
 
 const Player = ({address}) => {
 
@@ -52,18 +52,15 @@ const Player = ({address}) => {
             axios.get(metaResponse.data.metaplex.metadataUri)
             .then((attrResponse) => {
               // * Put attributes and name into JS object
-              const cyborg = {
-                name: attrResponse.data.name,
-                background: attrResponse.data.attributes[0].value,
-                weapon: attrResponse.data.attributes[1].value,
-                body: attrResponse.data.attributes[2].value,
-                head: attrResponse.data.attributes[3].value,
-                facialExpression: attrResponse.data.attributes[4].value,
-                faceItem: attrResponse.data.attributes[5].value,
-                headItem: attrResponse.data.attributes[6].value,
+              const token = {
+                Name: attrResponse.data.name,
               }
 
-              cyborgs.push(cyborg)
+              for (let attribute of attrResponse.data.attributes) {
+                token[attribute.trait_type] = attribute.value
+              }
+
+              nfts.push(token)
 
             })
           }
@@ -71,7 +68,7 @@ const Player = ({address}) => {
       }
     })
 
-    console.log(cyborgs)
+    console.log(nfts)
 
   }, [])
 
