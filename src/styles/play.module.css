@@ -5,6 +5,31 @@
     place-items: center;
 }
 
+.connectBox {
+    background: #0a0a0a;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.instructions {
+    height: calc(100% - 100px);
+    display: grid;
+    place-items: center;
+}
+
+.instructions h2 {
+    text-align: center;
+    line-height: 30px;
+}
+
 .connectButton {
-    background: red;
+    background: #DC143C !important; 
+    font-family: Pixel, sans-serif !important;
+    border-radius: 0.5em !important;
+    width: 70% !important;
+    height: 20% !important;
 }
