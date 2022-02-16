@@ -27,7 +27,8 @@
 }
 
 .connectButton {
-    background: #DC143C !important; 
+    background: lime !important; 
+    color: black !important;
     font-family: Pixel, sans-serif !important;
     border-radius: 0.5em !important;
     width: 70% !important;

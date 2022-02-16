@@ -44,7 +44,7 @@ const Game = () => {
   return (
     <ThemeProvider theme={theme}>
       <ConnectionProvider endpoint={endpoint}>
-        <WalletProvider wallets={wallets} >
+        <WalletProvider wallets={wallets} autoConnect>
           <WalletDialogProvider>
             <Connector />
           </WalletDialogProvider>
