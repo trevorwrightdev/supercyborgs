@@ -5,7 +5,6 @@ const nfts = [];
 
 const Player = ({address}) => {
 
-
   useEffect(() => {
 
     const config = {
@@ -15,6 +14,7 @@ const Player = ({address}) => {
         }
       },
       network: 'devnet',
+      // * Used to check if the NFT is from the right collection.
       owner: '9YzzdYwvDwCLZMMkFUSpwuL7siZCT22yaaYYg7y9n64M',
       collection: 'Super Cyborgs'
     }
@@ -53,7 +53,7 @@ const Player = ({address}) => {
             .then((attrResponse) => {
               // * Put attributes and name into JS object
               const token = {
-                Name: attrResponse.data.name,
+                name: attrResponse.data.name,
               }
 
               for (let attribute of attrResponse.data.attributes) {
