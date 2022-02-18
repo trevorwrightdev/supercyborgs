@@ -12,7 +12,6 @@ import reportWebVitals from './reportWebVitals';
 import './styles/globals.css';
 
 // TODO: Add a showcase for each clan mask in the clan of the mask page
-// TODO: Fix stylesheet conflicts
 
 ReactDOM.render(
   <React.StrictMode>
