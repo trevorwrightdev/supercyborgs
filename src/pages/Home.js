@@ -12,31 +12,31 @@ import DesktopDivider from '../components/DesktopDivider'
 import purpleCyborg from '../assets/images/purplecyborg.png'
 import pinkCyborg from '../assets/images/pinkcyborg.png'
 
-import '../styles/home.css'
+import styles from '../styles/home.module.css'
 
 const Home = () => {
   return (
     <>
-      <div className='flexbox'>
+      <div className={styles.flexbox}>
         <Banner>
           <Socials />
-          <h2 className='h2'>SUPER CYBORGS</h2>
+          <h2 className={styles.h2}>SUPER CYBORGS</h2>
         </Banner>
         <Subsection img={purpleCyborg}>
           <span>
-            <h2 className='h2'>What are <span id='gold'>Super Cyborgs?</span></h2>
-            <p className='p'>
-              Super Cyborgs are citizens of <span id='lime'>NEON CITY</span>, the most technologically advanced city
-              in the whole galaxy. It is the year <span id='gold'>2099</span>, and people have started to become more machine than man. 
+            <h2 className={styles.h2}>What are <span id={styles.gold}>Super Cyborgs?</span></h2>
+            <p className={styles.p}>
+              Super Cyborgs are citizens of <span id={styles.lime}>NEON CITY</span>, the most technologically advanced city
+              in the whole galaxy. It is the year <span id={styles.gold}>2099</span>, and people have started to become more machine than man. 
             </p>
             </span>
         </Subsection> 
         <Subsection img={pinkCyborg} reverse>
           <span>
-          <h2 className='h2'>What is the <span id='gold'>Super Cyborgs</span> <span id='red'>MMO</span>?</h2>
-          <p className='p'>
-            The Super Cyborgs <span id='red'>MMO</span> is a multiplayer video game that allows players to play as their one-of-a-kind NFT avatar
-            and explore <span id='lime'>NEON CITY</span>. Every aspect of the city&apos;s open world will be owned
+          <h2 className={styles.h2}>What is the <span id={styles.gold}>Super Cyborgs</span> <span id={styles.red}>MMO</span>?</h2>
+          <p className={styles.p}>
+            The Super Cyborgs <span id={styles.red}>MMO</span> is a multiplayer video game that allows players to play as their one-of-a-kind NFT avatar
+            and explore <span id={styles.lime}>NEON CITY</span>. Every aspect of the city&apos;s open world will be owned
             by the community.
           </p>
           </span>
