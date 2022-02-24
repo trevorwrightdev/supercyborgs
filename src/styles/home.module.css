@@ -235,6 +235,7 @@
   justify-content: center;
   background: #A34BA1;
   padding: 3%;
+  gap: 20px;
 }
 
 .aboutTitle {
@@ -250,12 +251,21 @@
   gap: 8%;
 }
 
+.about2 {
+  border-bottom: 0.6em dashed white;
+}
+
+.aboutReverse {
+  flex-direction: row-reverse;
+}
+
 .aboutSection img {
   width: 200px;
 }
 
 .aboutSection p {
   text-align: center;
+  line-height: 20px;
 }
 
 #gold {
