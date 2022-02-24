@@ -259,7 +259,11 @@
   flex-direction: row-reverse;
 }
 
-.aboutSection img {
+.gameHeart {
+  width: 210px;
+}
+
+.boardGame {
   width: 200px;
 }
 
