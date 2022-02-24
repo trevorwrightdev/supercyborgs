@@ -172,14 +172,17 @@
   margin-bottom: 10px;
 }
 
-.identityContainer {
-  margin-top: calc(-50vw * 0.33);
+.imgContainer {
+  margin-top: 20px;
   width: 70%;
   height: 50vw;
-  margin-bottom: 20px;
-  max-width: 500px;
+  margin-bottom: 30px;
 }
 
+.identityContainer {
+  /* TODO: make margin work with bigger screen sizes */
+  margin-top: calc(-50vw * 0.33);
+}
 
 .imgContainer img {
   object-fit: cover;
@@ -298,6 +301,15 @@
 
   .roadmap {
     font-size: 1.2rem;
+  }
+
+  .imgContainer {
+    width: 500px;
+    height: 500px;
+  }
+
+  .identityContainer {
+    margin-top: -180px;
   }
 
   .team {

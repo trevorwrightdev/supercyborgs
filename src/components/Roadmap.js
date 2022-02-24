@@ -1,4 +1,5 @@
 import identity from '../assets/images/stage-one.gif'
+import globe from '../assets/images/stage-two.gif'
 
 import styles from '../styles/home.module.css'
 
@@ -11,12 +12,13 @@ const Roadmap = () => {
             </div>
             <h2>STAGE 1</h2>
             <h3>Identity</h3>
+            <div className={`${styles.imgContainer}`}>
+                <img src={globe} alt=''/>
+            </div>
             <h2>STAGE 2</h2>
             <h3>Civilization</h3>
-            <h2>STAGE 3</h2>
+            <h2 style={{marginTop: '300px'}}>STAGE 3</h2>
             <h3>Delegation</h3>
-            <h2>STAGE 4</h2>
-            <h3>BEYOND</h3>
         </div>
     )
 }
