@@ -1,10 +1,14 @@
+import identity from '../assets/images/stage-one.gif'
+
 import styles from '../styles/home.module.css'
 
 const Roadmap = () => {
     return (
         <div className={styles.roadmap}>
             <h1 className={styles.title}>ROADMAP</h1>
-            {/* use images here before each phase title */}
+            <div className={`${styles.imgContainer} ${styles.identityContainer}`}>
+                <img src={identity} alt=''/>
+            </div>
             <h2>STAGE 1</h2>
             <h3>Identity</h3>
             <h2>STAGE 2</h2>
