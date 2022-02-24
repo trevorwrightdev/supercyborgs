@@ -19,7 +19,7 @@ ReactDOM.render(
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/clan' element={<Clan />} />
-        <Route path='/play' element={<Play />} />
+        {/* <Route path='/play' element={<Play />} /> */}
         <Route path='*' element={<Error />} /> 
       </Routes>
     </BrowserRouter>
