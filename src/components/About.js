@@ -1,5 +1,7 @@
 import gameHeart from '../assets/images/gameheart.png'
 import boardGame from '../assets/images/boardgame.png'
+import coding from '../assets/images/coding.gif'
+import solana from '../assets/images/solana.png'
 
 import styles from '../styles/home.module.css'
 
@@ -22,6 +24,16 @@ const About = () => {
         <p style={{textAlign: 'center', lineHeight: '20px'}}>
             When he got older, he decided to give coding a try, so he could make real video games!
         </p>
+        <img className={styles.coding} src={coding} alt='' />
+        <p style={{textAlign: 'center', lineHeight: '20px'}}>
+            He got pretty good at coding games. He wanted to spend his life making all of the games he's dreamed of.
+        </p>
+        <div className={`${styles.aboutSection}`}>
+            <p>
+                Then one day, he learned about NFTs. He thought that NFTs could make video games even better.
+            </p>
+            <img className={styles.solPic} src={solana} alt=''/>
+        </div>
     </div>
   )
 }

@@ -231,7 +231,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   background: #A34BA1;
   padding: 3%;
@@ -260,11 +260,19 @@
 }
 
 .gameHeart {
-  width: 210px;
+  width: 40%;
 }
 
 .boardGame {
-  width: 200px;
+  width: 40%;
+}
+
+.coding {
+  width: 50%;
+}
+
+.solPic {
+  width: 30%;
 }
 
 .aboutSection p {
