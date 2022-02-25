@@ -1,4 +1,3 @@
-import einstein from '../assets/images/einsteinscythe-transparent.png'
 import gameHeart from '../assets/images/gameheart.png'
 import boardGame from '../assets/images/boardgame.png'
 
