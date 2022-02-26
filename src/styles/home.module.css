@@ -297,6 +297,15 @@
   line-height: 20px;
 }
 
+.cyborgsWasBorn {
+  text-align: center;
+}
+
+.aboutP {
+  text-align: center;
+  line-height: 20px;
+}
+
 #gold {
   color: gold;
 }
@@ -371,6 +380,14 @@
 
   .roadmap {
     font-size: 1.2rem;
+  }
+
+  .about {
+    font-size: 1.2rem;
+  }
+
+  .about p {
+    line-height: 30px;
   }
 
   .imgContainer {
