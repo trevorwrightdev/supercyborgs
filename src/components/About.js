@@ -2,6 +2,8 @@ import gameHeart from '../assets/images/gameheart.png'
 import boardGame from '../assets/images/boardgame.png'
 import coding from '../assets/images/coding.gif'
 import solana from '../assets/images/solana.png'
+import lightbulb from '../assets/images/lightbulb.png'
+import threeCyborgs from '../assets/images/threecyborgs.png'
 
 import styles from '../styles/home.module.css'
 
@@ -15,7 +17,7 @@ const About = () => {
             </p>
             <img className={styles.gameHeart} src={gameHeart} alt=''/>
         </div>
-        <div className={`${styles.aboutSection} ${styles.about2}`} style={{paddingBottom: '25px'}}>
+        <div className={`${styles.aboutSection} ${styles.aboutBorder}`} style={{paddingBottom: '25px'}}>
             <p>
                 He decided that he wanted to make his own video games! But he was young and coding was hard, so he made paper board games instead.
             </p>
@@ -34,6 +36,23 @@ const About = () => {
             </p>
             <img className={styles.solPic} src={solana} alt=''/>
         </div>
+        <div className={`${styles.aboutSection} ${styles.aboutReverse} ${styles.aboutBorder}`}>
+            <p>
+                Then he had an idea! 
+            </p>
+            <img className={styles.lightbulb} src={lightbulb} alt=''/>
+        </div>
+        <p style={{textAlign: 'center', lineHeight: '20px'}}>
+            What if he made his own NFT game? A 2D MMO, similar to the online browser games he played during his childhood.
+            He could make a metaverse world completely owned by its players!
+        </p>
+        <p style={{textAlign: 'center', lineHeight: '20px'}}>
+            So.....
+        </p>
+        <img src={threeCyborgs} className={styles.threeCyborgs} alt=''/>
+        <p style={{textAlign: 'center', lineHeight: '20px'}}>
+            <span id={styles.lime}>SUPER CYBORGS WAS BORN!</span> <br /> The first game on the Solana blockchain that's actually good.
+        </p>
     </div>
   )
 }

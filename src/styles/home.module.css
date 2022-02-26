@@ -251,7 +251,7 @@
   gap: 8%;
 }
 
-.about2 {
+.aboutBorder {
   border-bottom: 0.6em dashed white;
 }
 
@@ -273,6 +273,14 @@
 
 .solPic {
   width: 30%;
+}
+
+.lightbulb {
+  width: 30%;
+}
+
+.threeCyborgs {
+  width: 100%;
 }
 
 .aboutSection p {
