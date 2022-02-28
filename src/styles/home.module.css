@@ -179,9 +179,21 @@
   margin-bottom: 30px;
 }
 
+.houseContainer {
+  width: 40%;
+}
+
 .identityContainer {
   /* TODO: make margin work with bigger screen sizes */
   margin-top: calc(-50vw * 0.33);
+  width: 60%;
+}
+
+
+.houseContainer img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .imgContainer img {

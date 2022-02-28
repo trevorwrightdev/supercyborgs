@@ -1,5 +1,6 @@
 import identity from '../assets/images/stage-one.gif'
 import globe from '../assets/images/stage-two.gif'
+import house from '../assets/images/stage-three.gif'
 
 import styles from '../styles/home.module.css'
 
@@ -17,7 +18,10 @@ const Roadmap = () => {
             </div>
             <h2>STAGE 2</h2>
             <h3>Civilization</h3>
-            <h2 style={{marginTop: '300px'}}>STAGE 3</h2>
+            <div className={`${styles.houseContainer} ${styles.imgContainer}`}>
+                <img src={house} alt=''/>
+            </div>
+            <h2>STAGE 3</h2>
             <h3>Delegation</h3>
         </div>
     )
