@@ -52,9 +52,6 @@ const About = () => {
             </p>
             <img src={threeCyborgs} className={styles.threeCyborgs} alt=''/>
             <h2 className={styles.cyborgsWasBorn}><span id={styles.lime}>SUPER CYBORGS WAS BORN!</span> </h2>
-            <p className={styles.aboutP}>
-                The first game on the Solana blockchain that's actually good.
-            </p>
         </div>
       </div>
   )
