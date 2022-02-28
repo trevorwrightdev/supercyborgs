@@ -13,16 +13,19 @@ const Roadmap = () => {
             </div>
             <h2>STAGE 1</h2>
             <h3>Identity</h3>
+            <p className={styles.roadParagraph}>Minting the NFTs</p>
             <div className={`${styles.imgContainer}`}>
                 <img src={globe} alt=''/>
             </div>
             <h2>STAGE 2</h2>
             <h3>Civilization</h3>
+            <p className={styles.roadParagraph}>Releasing the MMO</p>
             <div className={`${styles.houseContainer} ${styles.imgContainer}`}>
                 <img src={house} alt=''/>
             </div>
             <h2>STAGE 3</h2>
             <h3>Delegation</h3>
+            <p className={styles.roadParagraph}>Airdropping land</p>
         </div>
     )
 }
