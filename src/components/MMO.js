@@ -28,16 +28,12 @@ const MMO = () => {
         <h3 className={styles.mmoTitle}>LAND AIRDROPS</h3>
         <p className={styles.mmoDesc}>
           Each sector consists of scarce land that can be owned by owning the corresponding NFT. These land NFTs will be <span id='white'>airdropped</span> to all
-          Super Cyborgs holders during the &quot;Delegation&quot; phase on our roadmap. <span id='white'>At the minimum, all holders will receive a house NFT which
-          will be located in a random sector during the delegation phase.</span> On top of this, active MMO players will receive airdrops for special land. For example,
-          every shop, restaurant, club- every single part of the MMO&apos;s world will be airdropped to the players.
+          Super Cyborgs holders during the &quot;Delegation&quot; phase on our roadmap.
         </p>
         <h3 className={styles.mmoTitle}>COMMUNITY STORY</h3>
         <p className={styles.mmoDesc}>
           Super Cyborgs holders get exclusive access to work directly with the game developers to have a real and tangible effect on the MMO.
-          Each Cyborg is a character in a branching story that the community hand-crafts. Furthermore, a holder of special land (shops, clubs, etc.)
-          has permission to work with the developers to make changes to that area. <span id='white'>Neon City is something
-          that will evolve and grow with our players for years to come.</span>
+          Each Cyborg is a character in a branching story that the community hand-crafts.
         </p>
       </div>
       <Link to='/clan'><img className={styles.mask} src={mask} alt=''/></Link>
