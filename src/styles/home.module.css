@@ -12,9 +12,9 @@
   width: 100%;
   height: 50vw;
   min-height: 50vh;
-  background-image: url(../assets/images/banner.gif);
+  background-image: url(../assets/images/neoncity.gif);
   background-size: cover;
-  background-position: right;
+  background-position: left;
   margin-bottom: 4%;
 }
 
