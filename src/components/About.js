@@ -51,7 +51,7 @@ const About = () => {
                 So.....
             </p>
             <img src={threeCyborgs} className={styles.threeCyborgs} alt=''/>
-            <h2 className={styles.cyborgsWasBorn}><span id={styles.lime}>SUPER CYBORGS WAS BORN!</span> </h2>
+            <h2 className={styles.cyborgsWasBorn}>SUPER CYBORGS WAS BORN!</h2>
         </div>
       </div>
   )
