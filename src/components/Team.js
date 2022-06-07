@@ -1,4 +1,4 @@
-import einstein from '../assets/images/EinsteinScythe.png'
+// import einstein from '../assets/images/EinsteinScythe.png'
 import greenDude from '../assets/images/greendude.png'
 
 import styles from '../styles/home.module.css'
