@@ -9,7 +9,7 @@ const Faq = () => {
             <h2 className={styles.question}>What is the total supply?</h2>
             <h3 className={styles.answer}>The total supply is 4444.</h3>
             <h2 className={styles.question}>When does the MMO release?</h2>
-            <h3 className={styles.answer}>The game will release a week or two after minting.</h3>
+            <h3 className={styles.answer}>The game will release exactly one month after minting.</h3>
         </div>
     )
 }
