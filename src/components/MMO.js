@@ -49,7 +49,7 @@ const MMO = () => {
               </p>
               <h3 className={styles.mmoTitle}>COMMUNITY STORY</h3>
               <p className={styles.mmoDesc}>
-                  Super Cyborgs holders get exclusive access to work directly
+                  Super Cyborg holders get exclusive access to work directly
                   with the game developers to have a real and tangible effect on
                   the MMO. Each Cyborg is a character in a branching story that
                   the community hand-crafts.
